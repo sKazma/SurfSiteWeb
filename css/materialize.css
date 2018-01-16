@@ -6102,7 +6102,7 @@ input[type=tel]:not(.browser-default):focus:not([readonly]) + label,
 input[type=number]:not(.browser-default):focus:not([readonly]) + label,
 input[type=search]:not(.browser-default):focus:not([readonly]) + label,
 textarea.materialize-textarea:focus:not([readonly]) + label {
-  color: #26a69a;
+  color: #BE2A1F;
 }
 
 input:not([type]).validate + label,
@@ -6235,9 +6235,9 @@ input[type=search].invalid:not(.browser-default),
 input[type=search].invalid:not(.browser-default):focus,
 textarea.materialize-textarea.invalid,
 textarea.materialize-textarea.invalid:focus, .select-wrapper.invalid > input.select-dropdown {
-  border-bottom: 1px solid #F44336;
-  -webkit-box-shadow: 0 1px 0 0 #F44336;
-          box-shadow: 0 1px 0 0 #F44336;
+  border-bottom: 1px solid #9e0d03;
+  -webkit-box-shadow: 0 1px 0 0 #9e0d03;
+          box-shadow: 0 1px 0 0 #9e0d03;
 }
 
 input:not([type]).valid + label:after,
@@ -6300,7 +6300,7 @@ input[type=search]:not(.browser-default):focus.invalid + label:after,
 textarea.materialize-textarea.invalid + label:after,
 textarea.materialize-textarea:focus.invalid + label:after, .select-wrapper.invalid + label:after {
   content: attr(data-error);
-  color: #F44336;
+  color: #9e0d03;
   opacity: 1;
   -webkit-transform: translateY(9px);
           transform: translateY(9px);
