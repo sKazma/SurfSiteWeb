@@ -8963,7 +8963,7 @@ input[type=range]:focus::-ms-fill-upper {
 }*/
 .picker__date-display {
   text-align: left;
-  background-color: #26a69a;
+  background-color: #D32F2F;
   color: #fff;
   padding: 18px;
   font-weight: 300;
