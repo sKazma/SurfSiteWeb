@@ -72,26 +72,79 @@
 
 
   <div class="container">
-    <div class="section">      
-      <div class="row">
-        <div class="col s12 m12">
-		<p style="text-align: justify;">L’école vous propose des séances adaptées par groupe de niveau et de tranche d’âge. Grâce à une pédagogie sur mesure, l’élève pourra évoluer avec réussite et assurance, et découvrira les joies du surf dans les meilleures conditions de sécurité. Les cours sont encadrés par un moniteur diplômé BBJEPS, disposant d’une licence fédérale (Fédération Française de Surf) d’encadrement. Pour les surfeurs souhaitant surfer à l’année, il est possible de prendre une licence fédérale, loisirs ou compétition, grâce au Club de Surf « SCWAL » ( Association loi 1901 – agréée Fédération Française de Surf).</p>
-        </div>
-      </div>
-	    
-      <hr/>
-	    
-      <div class="row">
-	      <h5 class="center black-text text-darken-2">Planning</h5>
-	      <p>Le planning sera effectif à partir de fin Mars.</p>
-      </div>
-	    
-      <div class="row">
-	      <h5 class="center black-text text-darken-2">Moniteur</h5>
-	      <p style="text-align: justify;">Le moniteur Mathieu Ropartz est âgé de 35 ans et pratique le surf depuis 27 ans, il est titulaire du BBJEPS, et est licencié à la fédération française de Surf au Club SCWAL (22). Sa volonté de se perfectionner l’a mené à voyager; aujourd’hui, il s’engage à transmettre sa technique et sa passion à tous.</p>
-      </div>
-    </div>
-  </div>
+    <div class="section">
+	<div class="row">
+	<h5 class="center black-text text-darken-2">Réserver</h5>
+	 <form class="col s12">		 
+	      <div class="row">
+		<div class="input-field col s6">
+		  	<i class="material-icons prefix">account_circle</i>
+		  	<input placeholder="Prénom" id="first_name" type="text" class="validate">
+		  	<label for="first_name" data-error="wrong" data-success="right">Prénom</label>
+		</div>
+		      
+		<div class="input-field col s6">
+		  	<input placeholder="Nom" id="last_name" type="text" class="validate">
+		  	<label for="last_name" data-error="wrong" data-success="right">Nom</label>
+		</div>
+	      </div>
+		 
+	      <div class="row">
+	        <div class="input-field col s4">
+		  	<i class="material-icons prefix">cake</i>
+		  	<input placeholder="01/01/1900" id="birthdate" type="date" class="validate">
+		  	<label for="birthdate" data-error="wrong" data-success="right">Date de naissance</label>
+		</div>
+		      
+		<div class="input-field col s4">
+		  	<i class="material-icons prefix">mail</i>
+		  	<input placeholder="email@email.com" id="email" type="email" class="validate">
+		  	<label for="email" data-error="wrong" data-success="right">Email</label>
+		</div>
+		      
+		 <div class="input-field col s4">
+          	  	<i class="material-icons prefix">phone</i>
+                  	<input placeholder="0000000000" id="icon_telephone" type="tel" class="validate" minlength="10" maxlength="10">
+                  	<label for="icon_telephone" data-error="wrong" data-success="right">Téléphone</label>
+                 </div>
+	      </div>
+	
+	      <div class="row">
+		 <div class="input-field col s6">
+		  	<i class="material-icons prefix">event</i>
+		  	<input placeholder="01/01/1990" id="DateCours" type="date" class="validate">
+		  	<label for="DateCours" data-error="wrong" data-success="right">Date du cours</label>
+		 </div>
+		      
+		 <div class="input-field col s6">
+    		   <select>
+      			<option value="" disabled selected>Choississez une option</option>
+      			<option value="1">Cours</option>
+      			<option value="2">Location</option>
+    		  </select>
+    		  <label>Cours ou Locations</label>
+  		 </div>
+	      </div>
+		 
+	      <div class="row">
+		  <div class="input-field col s12">
+			 <i class="material-icons prefix">mode_edit</i>
+          		<textarea placeholder="Message" id="textarea1" class="materialize-textarea"></textarea>
+          		<label for="textarea1">Message</label>
+        	   </div>
+		</div>
+		
+		<div class="row">
+			<div class="center">
+				<button class="btn waves-effect waves-light" type="submit" name="action">Envoyé
+   		 			<i class="material-icons right">send</i>
+  				</button>
+			</div>
+		</div>
+	      </div>
+	    </form>
+	  </div>      
+</div>
 
 
   <div class="parallax-container valign-wrapper">
