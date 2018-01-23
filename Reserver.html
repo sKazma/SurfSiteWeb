@@ -49,7 +49,7 @@
     <div class="section">
 	<div class="row">
 	<h5 class="center black-text text-darken-2">Réserver</h5>
-	 <form class="col s12">		 
+	 <form class="col s12" action="#">		 
 	      <div class="row">
 		<div class="input-field col s6">
 		  	<i class="material-icons prefix">account_circle</i>
@@ -89,10 +89,16 @@
 		  	<input placeholder="01/01/1990" type="text" class="datepicker">
 		  	<label for="DateCours">Date du cours</label>
 		 </div>
-		      
+		 
 		 <div class="input-field col s8">
-    				<input name="group1" type="radio" value="Cours"> Cours<br>
-				<input name="group1" type="radio" value="Location"> Location<br>
+			     <p>
+    				<input name="group1" type="radio" id="test1" />
+     				<label for="test1">Cours</label>
+			    </p>
+			    <p>
+     				<input name="group1" type="radio" id="test2" />
+      				<label for="test2">Location</label>
+		 	    </p>
   		</div>
 	      </div>
 		 
